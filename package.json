@@ -1,0 +1,32 @@
+{
+  "name": "angular-http-get-spotify-episodes",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "rxjs": "6.1.0",
+    "core-js": "2.5.5",
+    "zone.js": "0.8.26",
+    "@angular/core": "6.0.0",
+    "@angular/common": "6.0.0",
+    "@angular/compiler": "6.0.0",
+    "@angular/platform-browser": "6.0.0",
+    "@angular/platform-browser-dynamic": "6.0.0"
+  },
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.901.1",
+    "@angular/cli": "~9.1.1",
+    "@angular/compiler-cli": "~9.1.1",
+    "@angular/language-service": "~9.1.1",
+    "@types/node": "^12.11.1",
+    "codelyzer": "^5.1.2",
+    "protractor": "~5.4.3",
+    "ts-node": "~8.3.0",
+    "tslint": "~6.1.0",
+    "typescript": "~3.8.3"
+  }
+}

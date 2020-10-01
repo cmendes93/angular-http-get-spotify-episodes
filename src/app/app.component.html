@@ -1,0 +1,8 @@
+<ul>
+  <li *ngFor="let episode of episodes">
+    <h2>
+      <a href={{episode.external_urls.spotify}}>{{episode.name}}</a>
+    </h2>
+    <img src="{{episode.images[1].url}}"  />
+  </li>
+</ul>
